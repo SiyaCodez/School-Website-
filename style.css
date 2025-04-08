@@ -1,0 +1,336 @@
+/* CSS Global */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+a{
+  text-decoration: none;
+  border: none;
+}
+/* Root CSS */
+:root {
+    --bg-color: #fff;
+    --bg-color2: #14315e;
+    --bg-color3: #31BB6C;
+    --bg-color4: #24a4da;
+    --text-color: #fff;
+    --text-color2: #28a4da;
+    --text-color3: #000;
+    --text-color4: #15305D;
+}
+
+/* Header Section */
+.navbar-nav .nav-link {
+    color:var(--text-color3);
+    position: relative;
+    padding: 10px 15px;
+    transition: all 0.3s ease;       
+  }
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: var(--text-color2);
+  }
+
+.dropdown-toggle::after {
+    display: none !important;
+  }
+.enrol-now-btn {
+    background-color: var(--bg-color4);     
+    color: var(--text-color);                    
+    padding: 10px 20px;             
+    border-radius: 5px;                   
+    font-size: 1rem;           
+    border: none;                    
+    transition: all 0.3s ease;       
+  }
+  
+.enrol-now-btn:hover {   
+    background-color: var(--bg-color4);
+    color: var(--text-color);                   
+    transform: scale(1.05);     
+    text-decoration: none;     
+  }
+
+  /* Hero Section */
+  .hero-section {
+    background: url('./assets/images/Hero-BG.webp') center/cover no-repeat;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hero-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+  }
+  
+  .hero-section .container {
+    z-index: 2;
+    position: relative;
+  }
+  .hero-section h1{
+    font-size: 2.2rem;
+  }
+  .hero-section .btn {
+    background-color: var(--bg-color4);
+    border: none;
+    padding: 10px 20px; 
+    transition: all 0.3s ease;       
+  }
+  .hero-section .btn:hover{
+    transform: scale(1.05);     
+    color: var(--text-color);
+  }
+
+  /* About */
+  .about-section .container{
+    padding-bottom: -10px;
+  }
+  .about-section h2{
+    color: var(--text-color4);
+    font-weight: 600;
+  }
+
+  /* Breadcrumb */
+  .breadcrumb-section {
+    border-bottom: 1px solid #ddd;
+    font-size: 0.9rem;
+    background-color: #f9f9f9;
+  }
+  
+  .breadcrumb a {
+    color: var(--text-color2);
+    text-decoration: none;
+    transition: all 0.3s ease;       
+  }
+  
+  .breadcrumb a:hover {
+    text-decoration: underline;
+    color: var(--text-color3);
+  }
+  
+  .breadcrumb-item.active {
+    color: var(--text-color3);
+  }
+
+/* Programmes Offered */
+.programs-title {
+  color: var(--text-color4);
+  font-weight: 600;
+}
+
+.programs-subtitle {
+  color: var(--text-color3);
+  font-size: 1rem;
+}
+
+.program-card {
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(21, 48, 93, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-5px);
+}
+.program-icon {
+  font-size: 2rem;
+  color: var(--text-color4);
+  margin-bottom: 1rem;
+}
+
+.program-title {
+  color: var(--text-color4);
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.program-text {
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-color3);
+}
+
+.program-card li {
+  color: var(--text-color3);
+}
+.custom-badge {
+  background-color: var(--text-color2);
+  color: #fff;
+}
+.custom-btn {
+  background-color: var(--text-color4);
+  color: var(--text-color);
+  border: none;
+  padding: 0.5rem 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: var(--bg-color4);
+  color: #fff;
+  transform: scale(1.05);     
+}
+
+/* News & Events Section */
+.news-title {
+  color: var(--text-color4);
+  font-weight: 600;
+}
+.news-img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.news-subtitle {
+  color: var(--text-color3);
+  font-size: 1rem;
+}
+
+.news-card {
+  background-color: var(--bg-color);
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(21, 48, 93, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-date {
+  font-size: 0.85rem;
+  color: #999;
+  margin-bottom: 0.5rem;
+}
+
+.news-btn {
+  background-color: var(--bg-color2);
+  color: var(--text-color);
+  border: none;
+  padding: 0.5rem 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.news-btn:hover {
+  background-color: var(--bg-color4);
+  color: var(--text-color);
+  transform: scale(1.05);     
+}
+
+/* Form */
+/* Contact Us Section */
+.contact-section {
+  background-color: var(--bg-color2);
+  color: var(--text-color);
+}
+
+.contact-title {
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.contact-subtitle {
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.contact-btn {
+  background-color: var(--bg-color4);
+  color: var(--text-color);
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: var(--bg-color);
+  color: var(--text-color3);
+  transform: scale(1.05);     
+}
+
+.form-control:focus {
+  border-color: var(--bg-color4);
+  box-shadow: 0 0 0 0.2rem rgba(0, 191, 255, 0.25);
+}
+#formAlert {
+ margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: var(--bg-color);
+  color: var(--text-color3);
+  padding: 40px 20px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.footer-column h3 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-column h4 {
+  margin-top: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: var(--text-color3);
+  line-height: 2;
+}
+
+.social-icons a i {
+  color: var(--bg-color4);
+  width: 24px;
+  vertical-align: middle;
+}
+
+.footer-bottom {
+  background-color: var(--bg-color2);
+  color: var(--text-color);
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+}
+
+.footer-bottom .dmca {
+  background: url('dmca-protected-badge.png') no-repeat left center;
+  display: inline-block;
+  padding-left: 40px;
+  margin-bottom: 10px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.footer-bottom .policies a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
