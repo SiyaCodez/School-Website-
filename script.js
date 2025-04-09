@@ -34,7 +34,7 @@ const articles = [
       <div class="card h-100 shadow-sm news-card">
         <img src="${article.image}" class="card-img-top news-img" alt="${article.title}">
         <div class="card-body">
-          <h5 class="card-title">${article.title}</h5>
+          <h6 class="card-title">${article.title}</h6>
           <p class="card-date text-muted small">${article.date}</p>
           <p class="card-text">${article.description}</p>
           <a href="${article.link}" class="btn news-btn">Read More</a>
