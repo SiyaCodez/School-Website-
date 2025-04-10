@@ -1,8 +1,10 @@
 
 ⚠️**Disclaimer:**
-This project was developed solely for educational and evaluative purposes as part of an assessment. Eduvos branding is for demonstration only and does not imply affiliation or endorsement. The project will be completely removed after the process.
 
-# 🌐 Microsite of the School of Emerging Technologie
+---
+This project was developed solely for educational purposes. Eduvos branding is for demonstration only and does not imply affiliation or endorsement. The project will be completely removed shortly after the process is done.
+
+# 🌐 Microsite of the School of Emerging Technologies
 
 This website was created and is completely responsive, interactive, and accessible. It shows excellent client-side form validation, accessibility awareness, front-end development abilities, and deployment readiness.
 
@@ -27,7 +29,8 @@ The purpose of the microsite is to mimic a contemporary university landing page 
 - **Bootstrap 5** – responsive layout and design components  
 - **JavaScript (Vanilla)** – interactivity, dynamic rendering  
 - **Font Awesome** – visual icons  
-- **Netlify** – for quick, reliable deployment  
+- **Netlify** – for quick, reliable deployment
+- **Figma** - for designing
 - **Git & GitHub** – version control 
 
 ---
@@ -70,9 +73,9 @@ The purpose of the microsite is to mimic a contemporary university landing page 
 
 ## 🧭 My Approach
 
-The first step was wireframing the layout and planning how each section would work together. I focused on structuring semantic HTML early on to ensure accessibility and SEO best practices. After styling the layout with Bootstrap, I added interactive components using vanilla JavaScript — particularly in the news and contact form sections.
+The first step was [designing](https://www.figma.com/design/cnGObRaL2jaF8b4gWhnHAa/Eduvos---School-of-Emerging-Technologies?node-id=0-1&t=alhAd1o3UtzhC88M-1), wireframing the layout, and planning how each section would work together. I focused on structuring semantic HTML early on to ensure accessibility and for SEO best practices. After styling the layout with Bootstrap, I added interactive components using vanilla JavaScript — particularly in the news and contact form sections.
 
-I used progressive enhancement, ensuring the core layout worked even before JS enhancements. Accessibility was baked in from the start — from meaningful alt text to labeled forms and focus-friendly navigation.
+I used progressive enhancement, ensuring the core layout worked even before JS enhancements. Accessibility was built in from the start, from meaningful alt text to labeled forms and focus-friendly navigation.
 
 ---
 
@@ -84,7 +87,7 @@ One of the main challenges was managing responsiveness while customizing Bootstr
 
 ## ✅ Final Thoughts
 
-This project made me combine layout, logic, accessibility, and performance with real-world front-end development techniques. Building it taught me a lot, and I can't wait to keep improving and growing it!
+This project made me combine layout, logic, accessibility, and performance with real-world front-end development techniques. Building it taught me a lot, and I can't wait to keep improving.
 
 ---
 
