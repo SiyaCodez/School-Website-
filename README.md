@@ -1,4 +1,8 @@
-# 🌐 Microsite of the School of Emerging Technologies
+
+⚠️**Disclaimer**
+This project was developed solely for educational and evaluative purposes as part of an assessment. Eduvos branding is for demonstration only and does not imply affiliation or endorsement and will be completely removed after the process.
+
+# 🌐 Microsite of the School of Emerging Technologie
 
 This website was created and is completely responsive, interactive, and accessible. It shows excellent client-side form validation, accessibility awareness, front-end development abilities, and deployment readiness.
 
