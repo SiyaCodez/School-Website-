@@ -62,8 +62,7 @@ The purpose of the microsite is to mimic a contemporary university landing page 
 ---
 
 ## ♿ Accessibility Considerations
-
-- Images include descriptive `alt` text  
+ 
 - Form fields are properly labeled  
 - Color contrast meets WCAG AA+ standards  
 - Fully keyboard-navigable  
