@@ -1,5 +1,5 @@
 
-⚠️**Disclaimer**
+⚠️**Disclaimer:**
 This project was developed solely for educational and evaluative purposes as part of an assessment. Eduvos branding is for demonstration only and does not imply affiliation or endorsement and will be completely removed after the process.
 
 # 🌐 Microsite of the School of Emerging Technologie
